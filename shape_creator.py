@@ -11,7 +11,7 @@ def main_menu( length=0, height=0, width=0, radius=0):
     #Asking the user to select from the main menu to start the program
     option = int(input("Please select an option from the menu above: "))
     while option != 6:
-        #A while loop that will continue until the user selects option 1
+        #A while loop that will continue until the user selects option 6
         if option == 1:
             #If the user selected option 1, run the code for square
             length = int(input("Enter a length for the square: "))
