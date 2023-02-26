@@ -46,8 +46,8 @@ def main_menu( length=0, height=0, width=0, radius=0):
              #Calculating the area of cylinder
              cylinder_area = 2 * 3.14 * radius * height + 2 * 3.14 * radius * radius
              print("The are of your cylinder is: ", (cylinder_area))
-except: 
-    print("An error occurred")
+     except: 
+            print("An error occurred")
 
 #Making sure that the program always starts at the main menu      
 main_menu()
