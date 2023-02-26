@@ -1,5 +1,5 @@
 def main_menu( length=0, height=0, width=0, radius=0):
-    Try:
+    try:
     while option != 6:
           #The main menu, where the user can input data to make different shapes
           print("1. Square")
